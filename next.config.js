@@ -4,4 +4,13 @@ const nextConfig = {
   swcMinify: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  images: {
+    remotePatterns: [
+      {
+        hostname: 'mdbcdn.b-cdn.net',
+        pathname: '/img/Photos/Horizontal/**',
+      },
+    ],
+  },
+}
