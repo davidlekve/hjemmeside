@@ -10,19 +10,19 @@ const Gallery = () => {
         <div className='w-1/2 h-1/2 p-1'>
           <div className='w-full h-full relative overflow-hidden rounded-xl z-10'>
             <Image alt='gallery' fill className='block object-cover object-top w-full h-full hover:scale-110 transition duration-300 ease-in-out'
-              src='/../public/static/marathon.jpeg'></Image>
+              src='/static/marathon.jpeg'></Image>
           </div>
         </div>
         <div className='w-1/2 h-1/2 p-1'>
           <div className='w-full h-full relative overflow-hidden rounded-xl p-1 z-10'>
             <Image fill alt='gallery' className='block object-cover object-center w-full h-full hover:scale-110 transition duration-300 ease-in-out'
-              src='/../public/static/balkos.jpg'></Image>
+              src='/static/balkos.jpg'></Image>
           </div>
         </div>
         <div className='w-full h-1/2 p-1'>
           <div className='w-full h-full md:p-2 relative overflow-hidden rounded-xl p-1 z-10'>
             <Image fill alt='gallery' className='block object-cover object-[100%_30%] w-full h-full hover:scale-110 transition duration-300 ease-in-out'
-              src='/../public/static/palmesus.jpeg'></Image>
+              src='/static/palmesus.jpeg'></Image>
           </div>
         </div>
       </div>
@@ -30,20 +30,20 @@ const Gallery = () => {
         <div className='w-full h-1/2 p-1'>
           <div className='w-full h-full md:p-2 relative overflow-hidden rounded-xl p-1 z-10'>
             <Image fill alt='gallery' className='block object-cover object-center w-full h-full hover:scale-110 transition duration-300 ease-in-out'
-              src='/../public/static/trolljeger.jpg'></Image>
+              src='/static/trolljeger.jpg'></Image>
           </div>
         </div>
         <div className='w-1/2 h-1/2 p-1'>
           <div className='w-full h-full relative overflow-hidden rounded-xl p-1 z-10'>
             <Image fill alt='gallery' className='block object-cover object-center w-full h-full hover:scale-110 transition duration-300 ease-in-out'
-              src='/../public/static/krabbe.jpg'></Image>
+              src='/static/krabbe.jpg'></Image>
           </div>
         </div>
         
         <div className='w-1/2 h-1/2 p-1'>
           <div className='relative w-full h-full overflow-hidden rounded-xl p-1 z-10'>
             <Image fill alt='gallery' className='block object-cover object-center w-full h-full hover:scale-110 transition duration-300 ease-in-out'
-              src='/../public/static/surfup.jpg'></Image>
+              src='/static/surfup.jpg'></Image>
           </div>
         </div>
         
