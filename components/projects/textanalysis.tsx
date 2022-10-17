@@ -6,14 +6,14 @@ const Textanalysis = () => {
     <section className='my-6'>
         <h3 className='text-3xl font-bold'>Tekstanalyse</h3>
         <div className='flex'>
-        <Image src="/static/githublogo.svg" height={20} width={20} alt={'github'}/>
+        <Image src='/static/githublogo.svg' height={20} width={20} alt={'github'}/>
         <div className='w-3'></div>
-        <a href="https://github.com/davidlekve/Tekstanalyse-prosjekt">github/tekstanalyse</a>
+        <a href='https://github.com/davidlekve/Tekstanalyse-prosjekt'>github/tekstanalyse</a>
         </div>
         <br />
         <strong>
             Dette programmet benytter kunstig intelligens for å finne ut hvordan sanglyrikk hadde sett ut dersom en vilkårlig artist hadde skrevet sangen.
-            Resultatet som er vist under viser hvordan "Empire State of Mind (Part II)" kunne vært dersom verdenskjent rapper, Kendrick
+            Resultatet som er vist under viser hvordan Empire State of Mind (Part II) kunne vært dersom verdenskjent rapper, Kendrick
             Lamar hadde skrevet sangen.
         </strong>
         <br />
